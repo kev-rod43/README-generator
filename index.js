@@ -65,8 +65,10 @@ function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {err ? console.error(err) : console.log("It did the thing");}
 )}
 
-// TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer
+        .prompt(questions)
+        .then((answers) => markdownGen(answers))
+}
 
-// Function call to initialize app
 init();
