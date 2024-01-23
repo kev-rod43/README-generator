@@ -30,21 +30,21 @@ const questions = [
 
     {
         type: "input",
-        name: "screenshot",
-        message: "What is the relative path or href to the screenshot you would like to use for your app?",
+        name: "contributing",
+        message: "What are the guidelines for contributors of this project to follow?",
     },
 
     {
         type: "input",
-        name: "contributing",
-        message: "What are the guidelines for contributors of this project to follow?",
+        name: "tests",
+        message: "Provide information on how to run the built-in tests.",
     },
 
     {
         type: "list",
         name: "license",
         message: "What license would you like to use?",
-        choices: ["	AFL-3.0", "Apache-2.0", "WTFPL", "MIT", "PostgreSQL"],
+        choices: ["", "AFL-3.0", "Apache-2.0", "MIT-0", "PostgreSQL"],
     },
 
     {
@@ -69,6 +69,7 @@ function init() {
     inquirer
         .prompt(questions)
         .then((answers) => markdownGen(answers))
+        .then((data) => writeToFile("generatedREADME.md",data))
 }
 
 init();
