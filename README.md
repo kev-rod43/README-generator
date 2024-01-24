@@ -20,7 +20,7 @@
   
   -Run the index.js file found in the root using node.js.\
   -Respond all questions through the command line.\
-  -The generated README will be localed in the root of the repo, and the name of the file will be generatedREADME.md.\
+  -The generated README will be located in the root of the repo, and the name of the file will be generatedREADME.md.\
   -[video-instructions](https://youtu.be/Mzn3uufWHzM)
 
   ## License
