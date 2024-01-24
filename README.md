@@ -18,14 +18,14 @@
   
   ## Usage
   
-  -Run the index.js file found in the root using node.js.
-  -Respond all questions through the command line.
-  -The generated README will be localed in the root of the repo, and the name of the file will be generatedREADME.md.
+  -Run the index.js file found in the root using node.js.\
+  -Respond all questions through the command line.\
+  -The generated README will be localed in the root of the repo, and the name of the file will be generatedREADME.md.\
   -[video-instructions](https://youtu.be/Mzn3uufWHzM)
 
   ## License
 
-  README Generator is available under the MIT-0 license.
+  README Generator is available under the MIT-0 license.\
   For more information on the license, visit this [link](https://opensource.org/license/MIT-0/
   )
   
