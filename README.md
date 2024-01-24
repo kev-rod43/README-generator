@@ -14,7 +14,8 @@
   
   ## Installation
   
-  To install the app, make a clone of this respository, and ensure you have node installed. run the index.js file found in the root using node.js.
+  -To install the app, make a clone of this respository, and ensure you have node and npm installed.
+  -Install npm package, then run the index.js file found in the root using node.js.
   
   ## Usage
   
