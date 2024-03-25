@@ -1,10 +1,10 @@
 [![License](https://img.shields.io/badge/License-MIT_0-blue.svg)](https://opensource.org/licenses/MIT-0)
   
-  # SVG Generator
+  # e-commerce-back-end
 
   ## Description
   
-  The SVG Generator is a simple app that allows the user to create a simple SVG logo so that they can quickly create a logo based on their input.  This CLI app utilizes inquierer for taking user input through the CLI, and it  uses jest for some basic tests.
+  The purpose of this project was to provide a sample database schema and functionality to an e-commerce back end service. 
   
   ## Table of Contents 
   
@@ -16,25 +16,25 @@
   
   ## Installation
   
-  To install the app, simply clone this repo, then run "npm i" in bash while in the root directory.
+    Create a copy by cloning the repo locally, then open up the terminal, traverse to the repo's root directory, and log into the mysql shell . In the mysql interface, run "source ./db/schema.sql" and,. Run an npm install and then you can also run "npm run seeds" if you would like to test using the provided seeds.
   
   ## Usage
   
-  To run the app, while in the root directory, run node "node index.js" , and then respond to the questions that should pop up on the command line. The generated SVG will be located in "./examples".
+  As this only provides a server and a db schema, to test the endpoints one would have to use something like insomnia.  Below is a demo video showing all endpoints and CRUD operations.
   
   ## License
 
-  SVG Generator is available under the MIT-0 license.
+  e-commerce-back-end is available under the MIT-0 license.
   For more information on the license, visit this [link](https://opensource.org/license/MIT-0/
   )
   
   ## Contributing
   
-  .
+  
   
   ## Tests
   
-  To run the built in test, simply run "npm test" in the command line while in the repo's root directory.
+  
   
   ## Questions
   
